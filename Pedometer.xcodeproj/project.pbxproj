@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CF3EE4612DE7BEE20078CECA /* PedometerWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF3EE4412DE7BEE00078CECA /* PedometerWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF3EE46F2DE7C10F0078CECA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3EE46D2DE7C10F0078CECA /* HealthKit.framework */; };
+		CF3EE4702DE7C10F0078CECA /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3EE46E2DE7C10F0078CECA /* HealthKitUI.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CF3EE4152DE7BE3B0078CECA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +27,94 @@
 			remoteGlobalIDString = CF3EE4062DE7BE390078CECA;
 			remoteInfo = Pedometer;
 		};
+		CF3EE44E2DE7BEE20078CECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EE3FF2DE7BE390078CECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EE4402DE7BEE00078CECA;
+			remoteInfo = "PedometerWatch Watch App";
+		};
+		CF3EE4582DE7BEE20078CECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EE3FF2DE7BE390078CECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EE4402DE7BEE00078CECA;
+			remoteInfo = "PedometerWatch Watch App";
+		};
+		CF3EE45F2DE7BEE20078CECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EE3FF2DE7BE390078CECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EE4402DE7BEE00078CECA;
+			remoteInfo = "PedometerWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF3EE4622DE7BEE20078CECA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CF3EE4612DE7BEE20078CECA /* PedometerWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CF3EE4072DE7BE390078CECA /* Pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3EE4142DE7BE3B0078CECA /* PedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3EE41E2DE7BE3B0078CECA /* PedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EE4412DE7BEE00078CECA /* PedometerWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PedometerWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EE44D2DE7BEE20078CECA /* PedometerWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PedometerWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EE4572DE7BEE20078CECA /* PedometerWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PedometerWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EE46D2DE7C10F0078CECA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		CF3EE46E2DE7C10F0078CECA /* HealthKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKitUI.framework; path = System/Library/Frameworks/HealthKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CF3EE4732DE7C4530078CECA /* Exceptions for "Pedometer" folder in "Pedometer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CF3EE4062DE7BE390078CECA /* Pedometer */;
+		};
+		CF3EE47C2DE7C5440078CECA /* Exceptions for "Pedometer" folder in "PedometerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"HealthKit Manager.swift",
+			);
+			target = CF3EE4132DE7BE3B0078CECA /* PedometerTests */;
+		};
+		CF3EE47D2DE7C5440078CECA /* Exceptions for "Pedometer" folder in "PedometerWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"HealthKit Manager.swift",
+			);
+			target = CF3EE4402DE7BEE00078CECA /* PedometerWatch Watch App */;
+		};
+		CF3EE47E2DE7C5440078CECA /* Exceptions for "Pedometer" folder in "PedometerWatch Watch AppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"HealthKit Manager.swift",
+			);
+			target = CF3EE44C2DE7BEE20078CECA /* PedometerWatch Watch AppTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CF3EE4092DE7BE390078CECA /* Pedometer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CF3EE4732DE7C4530078CECA /* Exceptions for "Pedometer" folder in "Pedometer" target */,
+				CF3EE47C2DE7C5440078CECA /* Exceptions for "Pedometer" folder in "PedometerTests" target */,
+				CF3EE47D2DE7C5440078CECA /* Exceptions for "Pedometer" folder in "PedometerWatch Watch App" target */,
+				CF3EE47E2DE7C5440078CECA /* Exceptions for "Pedometer" folder in "PedometerWatch Watch AppTests" target */,
+			);
 			path = Pedometer;
 			sourceTree = "<group>";
 		};
@@ -45,6 +128,21 @@
 			path = PedometerUITests;
 			sourceTree = "<group>";
 		};
+		CF3EE4422DE7BEE00078CECA /* PedometerWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PedometerWatch Watch App";
+			sourceTree = "<group>";
+		};
+		CF3EE4502DE7BEE20078CECA /* PedometerWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PedometerWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CF3EE45A2DE7BEE20078CECA /* PedometerWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PedometerWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +150,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3EE46F2DE7C10F0078CECA /* HealthKit.framework in Frameworks */,
+				CF3EE4702DE7C10F0078CECA /* HealthKitUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +169,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF3EE43E2DE7BEE00078CECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EE44A2DE7BEE20078CECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EE4542DE7BEE20078CECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +199,10 @@
 				CF3EE4092DE7BE390078CECA /* Pedometer */,
 				CF3EE4172DE7BE3B0078CECA /* PedometerTests */,
 				CF3EE4212DE7BE3B0078CECA /* PedometerUITests */,
+				CF3EE4422DE7BEE00078CECA /* PedometerWatch Watch App */,
+				CF3EE4502DE7BEE20078CECA /* PedometerWatch Watch AppTests */,
+				CF3EE45A2DE7BEE20078CECA /* PedometerWatch Watch AppUITests */,
+				CF3EE46C2DE7C10E0078CECA /* Frameworks */,
 				CF3EE4082DE7BE390078CECA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +213,20 @@
 				CF3EE4072DE7BE390078CECA /* Pedometer.app */,
 				CF3EE4142DE7BE3B0078CECA /* PedometerTests.xctest */,
 				CF3EE41E2DE7BE3B0078CECA /* PedometerUITests.xctest */,
+				CF3EE4412DE7BEE00078CECA /* PedometerWatch Watch App.app */,
+				CF3EE44D2DE7BEE20078CECA /* PedometerWatch Watch AppTests.xctest */,
+				CF3EE4572DE7BEE20078CECA /* PedometerWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3EE46C2DE7C10E0078CECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EE46D2DE7C10F0078CECA /* HealthKit.framework */,
+				CF3EE46E2DE7C10F0078CECA /* HealthKitUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +239,12 @@
 				CF3EE4032DE7BE390078CECA /* Sources */,
 				CF3EE4042DE7BE390078CECA /* Frameworks */,
 				CF3EE4052DE7BE390078CECA /* Resources */,
+				CF3EE4622DE7BEE20078CECA /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CF3EE4602DE7BEE20078CECA /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				CF3EE4092DE7BE390078CECA /* Pedometer */,
@@ -163,6 +302,74 @@
 			productReference = CF3EE41E2DE7BE3B0078CECA /* PedometerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CF3EE4402DE7BEE00078CECA /* PedometerWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EE4692DE7BEE20078CECA /* Build configuration list for PBXNativeTarget "PedometerWatch Watch App" */;
+			buildPhases = (
+				CF3EE43D2DE7BEE00078CECA /* Sources */,
+				CF3EE43E2DE7BEE00078CECA /* Frameworks */,
+				CF3EE43F2DE7BEE00078CECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CF3EE4422DE7BEE00078CECA /* PedometerWatch Watch App */,
+			);
+			name = "PedometerWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PedometerWatch Watch App";
+			productReference = CF3EE4412DE7BEE00078CECA /* PedometerWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3EE44C2DE7BEE20078CECA /* PedometerWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EE46A2DE7BEE20078CECA /* Build configuration list for PBXNativeTarget "PedometerWatch Watch AppTests" */;
+			buildPhases = (
+				CF3EE4492DE7BEE20078CECA /* Sources */,
+				CF3EE44A2DE7BEE20078CECA /* Frameworks */,
+				CF3EE44B2DE7BEE20078CECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3EE44F2DE7BEE20078CECA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CF3EE4502DE7BEE20078CECA /* PedometerWatch Watch AppTests */,
+			);
+			name = "PedometerWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "PedometerWatch Watch AppTests";
+			productReference = CF3EE44D2DE7BEE20078CECA /* PedometerWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3EE4562DE7BEE20078CECA /* PedometerWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EE46B2DE7BEE20078CECA /* Build configuration list for PBXNativeTarget "PedometerWatch Watch AppUITests" */;
+			buildPhases = (
+				CF3EE4532DE7BEE20078CECA /* Sources */,
+				CF3EE4542DE7BEE20078CECA /* Frameworks */,
+				CF3EE4552DE7BEE20078CECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3EE4592DE7BEE20078CECA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CF3EE45A2DE7BEE20078CECA /* PedometerWatch Watch AppUITests */,
+			);
+			name = "PedometerWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "PedometerWatch Watch AppUITests";
+			productReference = CF3EE4572DE7BEE20078CECA /* PedometerWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +391,17 @@
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = CF3EE4062DE7BE390078CECA;
 					};
+					CF3EE4402DE7BEE00078CECA = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					CF3EE44C2DE7BEE20078CECA = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CF3EE4402DE7BEE00078CECA;
+					};
+					CF3EE4562DE7BEE20078CECA = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = CF3EE4402DE7BEE00078CECA;
+					};
 				};
 			};
 			buildConfigurationList = CF3EE4022DE7BE390078CECA /* Build configuration list for PBXProject "Pedometer" */;
@@ -203,6 +421,9 @@
 				CF3EE4062DE7BE390078CECA /* Pedometer */,
 				CF3EE4132DE7BE3B0078CECA /* PedometerTests */,
 				CF3EE41D2DE7BE3B0078CECA /* PedometerUITests */,
+				CF3EE4402DE7BEE00078CECA /* PedometerWatch Watch App */,
+				CF3EE44C2DE7BEE20078CECA /* PedometerWatch Watch AppTests */,
+				CF3EE4562DE7BEE20078CECA /* PedometerWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +444,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CF3EE41C2DE7BE3B0078CECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EE43F2DE7BEE00078CECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EE44B2DE7BEE20078CECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EE4552DE7BEE20078CECA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +495,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF3EE43D2DE7BEE00078CECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EE4492DE7BEE20078CECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EE4532DE7BEE20078CECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +528,21 @@
 			isa = PBXTargetDependency;
 			target = CF3EE4062DE7BE390078CECA /* Pedometer */;
 			targetProxy = CF3EE41F2DE7BE3B0078CECA /* PBXContainerItemProxy */;
+		};
+		CF3EE44F2DE7BEE20078CECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EE4402DE7BEE00078CECA /* PedometerWatch Watch App */;
+			targetProxy = CF3EE44E2DE7BEE20078CECA /* PBXContainerItemProxy */;
+		};
+		CF3EE4592DE7BEE20078CECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EE4402DE7BEE00078CECA /* PedometerWatch Watch App */;
+			targetProxy = CF3EE4582DE7BEE20078CECA /* PBXContainerItemProxy */;
+		};
+		CF3EE4602DE7BEE20078CECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EE4402DE7BEE00078CECA /* PedometerWatch Watch App */;
+			targetProxy = CF3EE45F2DE7BEE20078CECA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,16 +673,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pedometer/Pedometer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YT53ZC5XK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pedometer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pedometer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the health data and show it in the application";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To update the health data and show it in the application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,9 +696,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = byerlyan.Pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -423,16 +711,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pedometer/Pedometer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YT53ZC5XK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pedometer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pedometer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To read the health data and show it in the application";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To update the health data and show it in the application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,9 +734,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = byerlyan.Pedometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +816,142 @@
 			};
 			name = Release;
 		};
+		CF3EE4632DE7BEE20078CECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YT53ZC5XK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PedometerWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = byerlyan.Pedometer;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = byerlyan.Pedometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		CF3EE4642DE7BEE20078CECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YT53ZC5XK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PedometerWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = byerlyan.Pedometer;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = byerlyan.Pedometer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		CF3EE4652DE7BEE20078CECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YT53ZC5XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byerlyan.PedometerWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedometerWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PedometerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		CF3EE4662DE7BEE20078CECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YT53ZC5XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byerlyan.PedometerWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PedometerWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PedometerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		CF3EE4672DE7BEE20078CECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YT53ZC5XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byerlyan.PedometerWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PedometerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		CF3EE4682DE7BEE20078CECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YT53ZC5XK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byerlyan.PedometerWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "PedometerWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +987,33 @@
 			buildConfigurations = (
 				CF3EE42F2DE7BE3B0078CECA /* Debug */,
 				CF3EE4302DE7BE3B0078CECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EE4692DE7BEE20078CECA /* Build configuration list for PBXNativeTarget "PedometerWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EE4632DE7BEE20078CECA /* Debug */,
+				CF3EE4642DE7BEE20078CECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EE46A2DE7BEE20078CECA /* Build configuration list for PBXNativeTarget "PedometerWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EE4652DE7BEE20078CECA /* Debug */,
+				CF3EE4662DE7BEE20078CECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EE46B2DE7BEE20078CECA /* Build configuration list for PBXNativeTarget "PedometerWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EE4672DE7BEE20078CECA /* Debug */,
+				CF3EE4682DE7BEE20078CECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
